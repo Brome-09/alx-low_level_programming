@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
-* main
-* *
-* Return: 0 (Success)
+* main - Entry point
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -13,5 +13,4 @@ int main(void)
 	printf("Size of a float: %d byte(s)\n", sizeof(float));
 	return (0);
 }
-
 

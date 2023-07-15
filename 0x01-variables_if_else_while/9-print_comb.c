@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible combinations of single-digit numbers in ascending order
+ * main - prints all possible combinations of single-digit numbers separated by , and a space
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 0; i < 10; i++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(i);
-		if (i != 9) {
+		putchar(n);
+		if (n != 57)
+		{
 			putchar(',');
 			putchar(' ');
 		}
